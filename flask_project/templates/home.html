@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Document</title>
-    </head>
-    <body>
-        <h1>Hello, this is Home</h1>
-        <p>hello</p>
-        <p>he</p>
-        
-        
-        <script src="" async defer></script>
-    </body>
-</html>
+<!-- templates/home.html -->
+{% extends "base.html" %}
+
+{% block title %}
+Home Page
+{% endblock %}
+
+{% block content %}
+<h2>Welcome to Home Page</h2>
+<p>This is the home page content.</p>
+{% endblock %}

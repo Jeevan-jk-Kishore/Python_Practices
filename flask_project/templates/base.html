@@ -1,0 +1,23 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}My App{% endblock %}</title>
+</head>
+<body>
+
+    <header>
+        <h1>Flask Application</h1>
+    </header>
+
+    {% block content %}
+    <!-- Child content goes here -->
+    {% endblock %}
+
+    <p>bye bye</p>
+    <footer>
+        <p>© 2025 My App</p>
+    </footer>
+
+</body>
+</html>
